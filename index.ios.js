@@ -4,16 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import App from './app/containers/App';
-import { AppRegistry } from 'react-native';
+ import App from './app/containers/App';
+ import { AppRegistry } from 'react-native';
 
-class ReactNativeProject extends Component {
-  render() {
-    return (
-      <App />
-    );
-  }
-}
-
-AppRegistry.registerComponent('ReactNativeProject', () => ReactNativeProject);
+ AppRegistry.registerComponent('ReactNativeProject', () => App);
